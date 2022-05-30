@@ -10,17 +10,6 @@ labels.forEach((label) => {
     .join("");
 });
 
-let nome = $('#name');
-let email = $('#email');
-let password = $('#password');
-let city = $('#city');
-
-const form =$(".form");
-form.on('submit', function (e) { 
-  $('text-nome').text(nome.val())
-  $('text-email').text(email.val())
-  $('text-city').text(city.val())
-})
 
 function cadastro(){
   var nameUser = document.getElementById('name');
